@@ -1,0 +1,40 @@
+.nav-tree-badge:after {
+    position: absolute;
+    height: 18px;
+    width: 3.3em;
+    display: inline-block;
+    text-align: center;
+    top: 50%;
+    margin-top: -9px;
+    right: 12px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.nav-tree-badge-hot:after {
+    content: "HOT";
+    background-color: #e3495a;
+}
+
+.nav-tree-badge-new:after {
+    content: "NEW";
+    background-color: $color-soft-blue;
+}
+
+.pop-out {
+    @include box-shadow(2px 2px 8px 2px #ccc);
+}
+
+.circular {
+    border-radius: 50%;
+}
+
+.x-fab {
+    &.fa-google-plus {
+        min-width: 16px;
+        width: auto;
+    }
+}
+
